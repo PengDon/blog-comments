@@ -90,7 +90,7 @@ ignore:
 # Extensions 使用的主题名称，会在这里切换
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: prue
+theme: don
 
 # Deployment 部署，一般选择部署到Github上
 ## Docs: https://hexo.io/docs/deployment.html
