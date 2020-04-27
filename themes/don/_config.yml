@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  # Books: books  # 豆瓣书单
-  # Links: links  # 友链
+  Books: books  # 豆瓣书单
+  Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -17,8 +17,8 @@ menu_icons:
   categories: icon-folder
   tags: icon-tags
   repository: icon-project
-  # books: icon-book-fill
-  # links: icon-friendship
+  books: icon-book-fill
+  links: icon-friendship
   about: icon-cup-fill
 
 # rss
@@ -82,16 +82,16 @@ search:
   baidu: false # you need to disable other search engines to use Baidu search
 
 # Donate
-# donate:
-#   enable: false
-#   # 微信打赏
-#   wechatpay:
-#     qrcode: images/donate/wechatpayimg.png
-#     title: 微信支付
-#   # 支付宝打赏
-#   alipay: 
-#     qrcode: images/donate/alipayimg.png 
-#     title: 支付宝
+donate:
+  enable: false
+  # 微信打赏
+  wechatpay:
+    qrcode: images/donate/wechatpayimg.png
+    title: 微信支付
+  # 支付宝打赏
+  alipay: 
+    qrcode: images/donate/alipayimg.png 
+    title: 支付宝
 
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
