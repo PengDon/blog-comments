@@ -1,5 +1,5 @@
 ---
-title: JavaScript算法
+title: JavaScript算法1
 categories: 
 - Arithmetic
 tags: 

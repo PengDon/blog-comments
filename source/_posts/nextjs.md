@@ -1,5 +1,5 @@
 ---
-title: 1 nextjs+typescript 
+title: nextjs+typescript 
 date: 2019-11-14 20:11:27
 categories: 
 - React-SSR
