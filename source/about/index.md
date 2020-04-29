@@ -1,7 +1,8 @@
 ---
 title: 关于
-date: 2019-11-14 19:25:53
+description: 个人简介
+layout: about
 comments: false
+sidebar: custom
 ---
-
-​     On the way, it's coming, it's coming
+个人详细介绍

@@ -222,7 +222,7 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: don
-  author_title: Web Developer
+  author_title: software engineer
   author_description: 拥抱未来，用技术改善生活。
   location: Shenzhen, China
   follow: https://github.com/PengDon
@@ -241,11 +241,19 @@ profile:
   skills:
     Git: ★★★☆☆
     webpack: ★★★☆☆
-    Javascript: ★★★★★
+    Javascript: ★★★★☆
     node: ★★★☆☆
-    JAVA: ★★★☆☆
-    Vue: ★★★☆☆
+    JAVA: ★★★★☆
+    Vue: ★★★★☆
+    React: ★★★☆☆
     Python: ★☆☆☆☆
+    Mysql: ★★★☆☆
+    Mongodb: ★★☆☆☆
+    Oracle: ★★★☆☆
+    SqlServer: ★★★☆☆
+    Linux: ★★☆☆☆
+    # C++: ★☆☆☆☆
+    # C#: ★★★☆☆
   # My Personal Links
   links:
     Github: https://github.com/PengDon
@@ -255,16 +263,27 @@ profile:
    # Behance: /
   # My Personal Labels
   labels:
-    - 前端开发
-    - node开发
-    - react开发
-    - vue开发
-    - java开发
+    - JavaScript
+    - Node
+    - React
+    - Vue
+    - Java
+    - C#
+    - Python
+    - SqlServer
+    - Oracle
+    - Mysql
+    - Mongodb
+    - 小程序
+    - Weblogic
+    - Tomcat
+    - Nginx
+    - Linux
   # My Personal Works
   works:
-    name:
-      link: /
-      date: 2011
+    # name:
+    #   link: https://www.xx.com
+    #   date: 2011
   # My Personal Projects
   projects:
-    PengDon/blend:https://github.com/PengDon/blend
+    PengDon/blend: https://github.com/PengDon/blend
