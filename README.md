@@ -20,4 +20,5 @@ hexo cl && hexo g && hexo d
  draft |	新建草稿 |	/source/_drafts/
  page |	新建页面（标签页，分类页等） |	/source/
 
-* 新建 hexo new post 文章名称
+* 新建文章
+hexo new post 文章名称
