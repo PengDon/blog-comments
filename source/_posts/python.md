@@ -1,5 +1,5 @@
 ---
-title: python记录1
+title: python知识点
 date: 2020-06-18 10:35:45
 categories: python
 tags: python

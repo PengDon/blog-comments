@@ -8,6 +8,7 @@ tags: python mysql
 ## 前提
 python3.8
 win10 64
+vscode
 
 ## 思路
 1、数据库场景：连接数据、操作数据库、关闭连接
