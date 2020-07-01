@@ -37,4 +37,10 @@ tags:
      2、选择Auto-detect proxy settings,选择Automatic proxy configuration URL:,设置值为：https://plugins.jetbrains.com/ 
      3、保存后再去Plugins，可以看到插件了
 ```
-
+* 问题四
+```js
+  问题场景：创建flutter项目时，卡着
+  解决步骤：
+     1、先确定自己环境没问题
+     2、关掉Android Studio，然后用管理员模式打开，再创建flutter项目，发现不会卡着了
+```
