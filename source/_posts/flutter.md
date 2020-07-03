@@ -32,6 +32,24 @@ FLUTTER_STORAGE_BASE_URL | https://storage.flutter-io.cn
 PUB_HOSTED_URL | https://pub.flutter-io.cn
 
 
+## 相关镜像
+* 上海交大 
+PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cn
+FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn
+
+* 清华大学
+PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
+
+* CNNIC
+PUB_HOSTED_URL=http://mirrors.cnnic.cn/dart-pub
+FLUTTER_STORAGE_BASE_URL=http://mirrors.cnnic.cn/flutter
+
+* 腾讯云开源镜像站
+PUB_HOSTED_URL=https://mirrors.cloud.tencent.com/dart-pub
+FLUTTER_STORAGE_BASE_URL=https://mirrors.cloud.tencent.com/flutter
+
+
 
 ## 常见问题
 * 问题1

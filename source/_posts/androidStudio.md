@@ -5,6 +5,43 @@ categories: 开发工具
 tags:
 - 安卓开发
 ---
+## 前提
+* win10 64
+* Android Studio 4.0
+* jdk1.8
+* android-sdk_r24.4.1-windows
+
+## 下载的android sdk目录下的主要文件说明
+名称 | 描述
+--   | --
+AVD Manager.exe | 虚拟机管理工具
+SDK Manager.exe | sdk管理工具
+add-ons | 保存着附加库，比如GoogleMaps，当然你如果安装了OphoneSDK，这里也会有一些类库在里面
+tools目录 | 包括测试、调试、第三方工具。模拟器、数据管理工具等
+build-tools目录 | 编译工具目录，包含了转化为davlik虚拟机的编译工具
+platform-tools目录 | 包含开发app的平台依赖的开发和调试工具。比如adb、和aapt、aidl、dx等文件
+platforms 目录 | 每个平台的SDK真正的文件，里面会根据APILevel划分的SDK版本
+system-images目录 | 编译好的系统映像。模拟器可以直接加载
+sources目录 | android　sdk的源码目录
+
+
+
+
+## android sdk 配置说明
+1、ANDROID_SDK_HOME：安卓sdk的目录，eg:android-sdk_r24.4.1-windows.zip解压出来的文件就是sdk
+```js
+// eg
+ANDROID_SDK_HOME // key
+D:\android-sdk-windows // value
+```
+2、添加到path
+```js
+%ANDROID_SDK_HOME%/emulator
+%ANDROID_SDK_HOME%/platform-tools
+%ANDROID_SDK_HOME%/tools
+```
+
+
 
 ## 常见问题
 * 问题一
@@ -43,4 +80,11 @@ tags:
   解决步骤：
      1、先确定自己环境没问题
      2、关掉Android Studio，然后用管理员模式打开，再创建flutter项目，发现不会卡着了
+```
+* 问题五
+```js
+  问题场景：在创建Android模拟器时间发现提示“No system images installed for this target”问题，无法创建模拟器
+  解决步骤：
+     1、给SDK中对应的Android版本下载对应的系统镜像，eg:xxxxxx System Image
+     2、下载安装好了之后，重新启动模拟器
 ```
