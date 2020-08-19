@@ -22,8 +22,8 @@ Flutter的架构主要分成三层:Framework，Engine和Embedder
 2、Engine使用C++实现，主要包括:Skia,Dart和Text。Skia是开源的二维图形库，C++ 的2D绘图引擎，调用GPU来完成渲染，提供了适用于多种软硬件平台的通用API
 3、Embedder是一个嵌入层，即把Flutter嵌入到各个平台上去，这里做的主要工作包括渲染Surface设置,线程设置，以及插件等。从这里可以看出，Flutter的平台相关层很低，平台(如iOS)只是提供一个画布，剩余的所有渲染相关的逻辑都在Flutter内部，这就使得它具有了很好的跨端一致性
 
-## 环境
-1、安装flutter SDK，到官网下载最新稳定版（需要翻墙）
+## 环境变量配置
+1、安装flutter SDK，到官网下载最新稳定版：https://flutter.dev/docs/development/tools/sdk/releases#windows ， github上下载：https://github.com/flutter/flutter/releases
 2、例如：下载完后得到flutter_windows_1.17.4-stable.zip，解压到D盘根目录，可以看到flutter目录，配置环境变量，在path中添加D:\flutter\bin
 3、Flutter的代理设置，用来解决Dart无法正常下载更新的问题。
 变量名称 | 变量值
@@ -79,6 +79,7 @@ FLUTTER_STORAGE_BASE_URL=https://mirrors.cloud.tencent.com/flutter
 ```js
   问题描述： 执行flutter doctor报错：“Flutter plugin not installed; this adds Flutter specific functionality”
   解决步骤：
+     1、安装缺失插件即可
 ```
 
 
@@ -88,8 +89,6 @@ FLUTTER_STORAGE_BASE_URL=https://mirrors.cloud.tencent.com/flutter
 * [androiddevtools](https://www.androiddevtools.cn/index.html)
 * [Android Studio](https://developer.android.google.cn/studio)
 * [软件下载](https://en.softonic.com/)
-* []()
-* []()
-* []()
+
 
 

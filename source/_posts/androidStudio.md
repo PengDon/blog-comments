@@ -36,12 +36,10 @@ D:\android-sdk-windows // value
 ```
 2、添加到path
 ```js
-%ANDROID_SDK_HOME%/emulator
-%ANDROID_SDK_HOME%/platform-tools
-%ANDROID_SDK_HOME%/tools
+%ANDROID_SDK_HOME%\tools
+%ANDROID_SDK_HOME%\emulator
+%ANDROID_SDK_HOME%\platform-tools
 ```
-
-
 
 ## 常见问题
 * 问题一
@@ -88,3 +86,16 @@ D:\android-sdk-windows // value
      1、给SDK中对应的Android版本下载对应的系统镜像，eg:xxxxxx System Image
      2、下载安装好了之后，重新启动模拟器
 ```
+* 问题六
+```
+  问题场景：当android启动模拟器出现如下错误，CPU acceleration status: Unable to open HAXM device: ERROR_FILE_NOT_FOUND
+  解决步骤：
+     1、进入 android-sdk-windows\extras\intel\Hardware_Accelerated_Execution_Manager 目录
+     2、双击intelhaxm-android.exe安装一下就可以
+```
+
+
+## 参考
+* [androiddevtools](https://www.androiddevtools.cn/index.html)
+* [Android Studio](https://developer.android.google.cn/studio)
+* [sdkmanager](https://developer.android.google.cn/studio/command-line/sdkmanager.html)
