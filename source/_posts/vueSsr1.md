@@ -2,9 +2,9 @@
 title: vue-ssr基本用法 
 date: 2019-11-14 20:11:27
 categories: 
-- Vue-SSR
+- SSR
 tags: 
-- vue
+- vue-ssr
 ---
 
 ### 基础
