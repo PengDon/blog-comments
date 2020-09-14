@@ -1,10 +1,21 @@
+<!--
+ * @Author: don
+ * @Date: 2020-08-26 10:07:56
+ * @LastEditors: don
+ * @LastEditTime: 2020-08-31 17:02:53
+ * @Description:
+-->
+
 ---
+
 title: vscode 记录
 date: 2020-08-26 10:07:56
 categories:
-  - 开发工具
-tags:
-  - vscode
+
+- 开发工具
+  tags:
+- vscode
+
 ---
 
 ## 下载
@@ -18,6 +29,7 @@ tags:
 1.  change-case：提供了一种简单的方法来将单词或变量名更改为各种情况，包括 camelCase、snake_case、TitleCase…… 这种再多人合作, 遇到不一致的代码时, 可以极大地提高效率
 1.  Import Cost： 有助于你认识到你引入的文件大小。它以内联方式显示每个导入的大小，如果导入大于正常大小，则显示红色和黄色警告颜色
 1.  indent-rainbow：通过颜色区分, 让你一眼就看出缩进
+1.  koroFileHeader: 用于生成文件头部注释和函数注释的插件
 
 ## 常见快捷键
 
@@ -59,3 +71,15 @@ tags:
 **更改编辑器语言为中文**
 
 1. 点击左侧扩展（Extensinons），搜索 Chinese，安装“Chinese (Simplified) Language Pack for Visual Studio Code”
+
+**格式化时，单引号被改成了双引号**
+
+1. 新建.prettierrc.json 文件，内容如下：
+
+```json
+{
+  "singleQuote": true, //单引号
+  "trailingComma": "es5", // 对象属性最后有 ","
+  "semi": true //是否需要分号
+}
+```
