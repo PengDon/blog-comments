@@ -1,21 +1,10 @@
-<!--
- * @Author: don
- * @Date: 2020-08-26 10:07:56
- * @LastEditors: don
- * @LastEditTime: 2020-08-31 17:02:53
- * @Description:
--->
-
 ---
-
 title: vscode 记录
 date: 2020-08-26 10:07:56
 categories:
-
-- 开发工具
-  tags:
-- vscode
-
+  - 开发工具
+tags:
+  - vscode
 ---
 
 ## 下载
