@@ -37,5 +37,5 @@ npm run dev
 * [vuepress](https://vuepress.vuejs.org/zh/)
 * [awesome-vuepress](https://github.com/vuepress/awesome-vuepress)
 * [vuepress-theme-hope](https://vuepress-theme.mrhope.site/zh/)
-* []()
+* [vuepress npm](https://www.npmjs.com/package/vuepress)
 * []()
